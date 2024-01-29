@@ -7,12 +7,12 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
   title: 'My Site',
   tagline: 'Hora de aprender',
   url: 'https://jeremyabel710.github.io',
-  baseUrl: '/Trabajo2/',
+  baseUrl: '/Trabajo2',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/window.png',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'jeremyabel710', // Usually your GitHub org/user name.
+  projectName: 'Trabajo2', // Usually your repo name.
 
   presets: [
     [
@@ -22,14 +22,14 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl: 'https://github.com/facebook/docusaurus/edit/main/website/',
+          //editUrl: 'https://github.com/facebook/docusaurus/edit/main/website/',
         },
-        blog: {
+        /*blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
             'https://github.com/facebook/docusaurus/edit/main/website/blog/',
-        },
+        },*/
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
@@ -47,7 +47,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
           src: 'img/window.png',
         },
         items: [
-          {
+          /*{
             type: 'doc',
             docId: 'intro',
             position: 'left',
@@ -58,12 +58,12 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
             href: 'https://github.com/facebook/docusaurus',
             label: 'GitHub',
             position: 'right',
-          },
+          },*/
         ],
       },
       footer: {
         style: 'dark',
-        links: [
+        /*links: [
           {
             title: 'Docs',
             items: [
@@ -105,7 +105,9 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
           },
         ],
         copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
-      },
+      
+      */},
+
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
