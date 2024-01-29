@@ -1,0 +1,26 @@
+/* backgroundStyles.module.css */
+
+.heroBanner {
+  padding: 4rem 0;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+
+  /* Nuevas propiedades para el fondo de la imagen */
+  background-image: url('./fondo2.jpg'); /* Ajusta la ruta y el nombre de la imagen */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+@media screen and (max-width: 966px) {
+  .heroBanner {
+    padding: 2rem;
+  }
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
