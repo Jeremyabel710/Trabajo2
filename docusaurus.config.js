@@ -62,10 +62,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
         ],
       },
       footer: {
-          style: {
-          backgroundColor: '#ff0000', // Cambia al color deseado
-          },
-          links: [
+        style: 'dark',
+        links: [
           {
             title: 'Docs',
             items: [
