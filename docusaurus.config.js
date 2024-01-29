@@ -8,8 +8,6 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
   tagline: 'Hora de aprender',
   url: 'https://jeremyabel710.github.io',
   baseUrl: '/Trabajo2/',
-  onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
   favicon: 'img/window.png',
   organizationName: 'jeremyabel710', // Usually your GitHub org/user name.
   projectName: 'Trabajo2', // Usually your repo name.
