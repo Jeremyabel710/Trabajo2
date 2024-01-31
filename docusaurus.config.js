@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
   title: 'My Site',
   tagline: 'Hora de aprender',
   url: 'https://jeremyabel710.github.io',
-  baseUrl: '/Trabajo2/',
+  baseUrl: '/caso3/',
   
   favicon: 'img/window.png',
   organizationName: 'jeremyabel710',
